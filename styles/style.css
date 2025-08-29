@@ -55,4 +55,65 @@ a {
   display: flex;
   align-items: center;
   height: 100vh;
+  padding: 60px 9% 0;
+  color: white;
+}
+
+.home-section h1 {
+  font-size: 60px;
+}
+
+.home-section h2 {
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+.home-section p {
+  font-size: 15px;
+  margin: 10px 0 20px;
+}
+
+.home-section .button-sec {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background: greenyellow;
+  border: 2px solid greenyellow;
+  border-radius: 40px;
+  box-shadow: 0 0 10px greenyellow;
+  font-size: 16px;
+  color: #1f242d;
+  font-weight: 600;
+  transition: 0.7s;
+}
+
+.btn:hover {
+  background: transparent;
+  color: greenyellow;
+  box-shadow: none;
+}
+
+.home-section .button-sec .sec {
+  margin-left: 25px;
+}
+
+.home-section .button-sec .sec a {
+  display: inline-flex;
+  padding: 8px;
+  border: 2px solid greenyellow;
+  border-radius: 50%;
+  font-size: 20px;
+  color: yellowgreen;
+  margin: 0 8px;
+  transition: 0.7s;
+}
+
+.home-section .button-sec .sec a:hover {
+  background: yellowgreen;
+  color: #1f242d;
+  box-shadow: 0 0 10px yellowgreen;
 }
