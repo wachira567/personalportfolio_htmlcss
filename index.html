@@ -14,11 +14,11 @@
     <nav class="navbar">
       <a href="#" class="portfolio-logo">Portfolio</a>
       <ul>
-        <li class="homeicon"><a href="#Home" alt="home-section">Home</a></li>
-        <li><a href="#About" alt="About-section">About</a></li>
-        <li><a href="#Skills" alt="Skills-section">Skills</a></li>
-        <li><a href="#Projects" alt="Projects-section">Projects</a></li>
-        <li><a href="#Contact" alt="Contact-section">Contact</a></li>
+        <li class="homeicon"><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Contact">Contact</a></li>
       </ul>
     </nav>
 
@@ -31,17 +31,17 @@
       <div class="bar" style="--i: 1"></div>
     </div>
 
-    <section class="home">
+    <section id="Home" class="home">
       <div class="home-section">
         <h1>Victor Wachira</h1>
         <h2>
           I'm a
-          <span style="--i: 4" ; data-text="Fullstack software developer"
+          <span style="--i: 4" data-text="Fullstack software developer"
             >Fullstack software developer</span
           >
-          <span style="--i: 3" ; data-text="Using React">Using React</span>
-          <span style="--i: 2" ; data-text="Using Python">Using Python</span>
-          <span style="--i: 1" ; data-text="Using Javasript"
+          <span style="--i: 3" data-text="Using React">Using React</span>
+          <span style="--i: 2" data-text="Using Python">Using Python</span>
+          <span style="--i: 1" data-text="Using Javascript"
             >Using Javascript</span
           >
         </h2>
@@ -81,6 +81,50 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <section id="About" class="section">
+      <h2>About Me</h2>
+      <p>
+        I am a fullstack developer who enjoys building creative and functional
+        solutions. I have experience in modern frameworks and love working on
+        projects that challenge me to grow.
+      </p>
+    </section>
+
+    <section id="Skills" class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React, Python, Flask, Django</li>
+        <li>Node.js, Express</li>
+        <li>SQL & NoSQL Databases</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
+
+    <section id="Projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Project One</h3>
+          <p>A simple web app showcasing frontend skills.</p>
+        </div>
+        <div class="project-card">
+          <h3>Project Two</h3>
+          <p>Fullstack project with React and Django backend.</p>
+        </div>
+        <div class="project-card">
+          <h3>Project Three</h3>
+          <p>Portfolio website to highlight my skills and projects.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="Contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: wachira@example.com</p>
+      <p>Phone: +254 700 000 000</p>
     </section>
   </body>
 </html>
