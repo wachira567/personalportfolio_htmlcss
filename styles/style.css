@@ -81,21 +81,47 @@ a {
 }
 
 .home-section h2 {
+  display: inline-block;
   font-size: 30px;
   margin-top: -10px;
 }
 
 .home-section h2 span {
+  position: relative;
   display: inline-block;
   color: transparent;
   -webkit-text-stroke: 0.7px yellowgreen;
   animation: display-text 16s linear infinite;
+  animation-delay: calc(-4s * var(--i));
 }
 
 @keyframes display-text {
   25%,
   100% {
     display: none;
+  }
+}
+
+.home-section h2 span::before {
+  content: attr(data-text);
+  position: absolute;
+  width: 0;
+  border-right: 2px solid yellowgreen;
+  color: yellowgreen;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: fill-text 4s linear infinite;
+}
+
+@keyframes fill-text {
+  10%,
+  100% {
+    width: 0;
+  }
+
+  70%,
+  90% {
+    width: 100%;
   }
 }
 
