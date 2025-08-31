@@ -218,7 +218,7 @@ a {
 .section {
   min-height: 100vh;
   padding: 80px 9%;
-  background: black;
+  background: #1a1f29;
 }
 
 .section h2 {
